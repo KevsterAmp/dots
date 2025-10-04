@@ -26,18 +26,11 @@ export BAT_THEME="gruvbox-dark"
 # thefuck
 eval $(thefuck --alias)
 
-# zoxide
-eval "$(zoxide init zsh)"
-export PATH="/opt/homebrew/opt/mysql/bin:$PATH"
 
 # go
 export PATH=$PATH:$HOME/go/bin
 
-source ~/perl5/perlbrew/etc/bashrc
-
 export MANPAGER="nvim +Man!"
-
-export HOMEBREW_NO_AUTO_UPDATE=1
 
 . "$HOME/.cargo/env"
 
